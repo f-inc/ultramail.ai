@@ -1,0 +1,152 @@
+.background {
+  background-image: url("/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.barContainer {
+  padding-top: 10px;
+  width: 100%;
+
+}
+
+.bar {
+  position: relative; /* Override default position */
+  width: 100%; /* Full width */
+  height: 5px; /* Set a specific height or adjust as necessary */
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+  max-height: 100vh;
+  font-family: 'Inter', sans-serif; /* Updated this line */
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: transparent;
+  padding: 3vh 5vw;
+}
+
+
+.hero {
+  display: flex;
+  width: 100%;
+  font-size: 3rem;
+  font-weight: 500;
+  padding-bottom: 2vh;
+  background: linear-gradient(to left, rgb(100,100, 100) 0%, rgb(255,255,255) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+}
+
+.description {
+  /* display: flex; */
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: grey;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 5vh;
+  /* height: 50px; */
+  /* min-width: 500px; */
+  
+  
+  ;
+}
+
+.code {
+  font-weight: 700;
+  font-family: var(--font-mono);
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 10px - 35vh); 
+}
+
+
+.logo {
+  position: relative;
+}
+/* Enable hover only on non-touch devices */
+
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  font-size: medium;
+  padding: 1.5rem 2rem;
+  border: 0.05px solid;
+  background-color: white;
+  border-radius: 6px;
+  border-color: #424242;
+  color: black;
+  width: 50%;
+  min-width: 300px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out; /* Add a transition effect for all properties */
+  cursor: pointer; /* Add this line to set the cursor to pointer by default */
+  margin-bottom: 2vh;
+
+}
+
+.button:hover {
+  cursor: hand; /* Change the cursor to a hand icon on hover */
+  background-color: #C8C8C8;
+  /* border-image: linear-gradient(to right, #ebc1ff, #00fffc, #5c23ff) 1; */
+  transition: all 0.4s ease-in-out; /* Add a transition effect for all properties */
+}
+
+.footer {
+  color: #A0A0A0;
+  text-align: center;
+  font-weight: 300;
+  position: absolute;
+  bottom: 5vh;
+  max-width: 70vw;
+}
+
+
+.twitterIcon {
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.twitterIcon:hover {
+  cursor: hand;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .hero {
+    text-align: center;
+    width: 90vw;
+    font-size: 2.8rem;
+    /* padding: 0; */
+    /* margin: 0; */
+  }
+  .description {
+    width: 90vw;
+  }
+  .button {
+    width: 90vw;
+
+  }
+}
