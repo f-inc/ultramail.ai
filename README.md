@@ -1,1 +1,1 @@
-## Landing page for Dynamic.sh
+## Landing page for ultramail.ai
