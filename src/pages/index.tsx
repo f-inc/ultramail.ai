@@ -15,6 +15,7 @@ export default function Home() {
         <title>Ultramail</title>
         <meta name="description" content="Inbox Zero at your fingertips." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.background}>
