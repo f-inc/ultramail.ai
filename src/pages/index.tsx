@@ -48,7 +48,7 @@ export default function Home() {
               className={styles.button}
               onClick={() =>
                 window.open(
-                  "https://fdotinc.typeform.com/to/x4fsQpAy",
+                  "https://foundersinc.typeform.com/to/plAWbF6v",
                   "_blank"
                 )
               }
