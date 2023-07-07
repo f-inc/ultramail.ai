@@ -16,6 +16,7 @@ export default function Home() {
         <meta name="description" content="Inbox Zero at your fingertips." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta property="og:image" content="/opengraph.png" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.background}>
